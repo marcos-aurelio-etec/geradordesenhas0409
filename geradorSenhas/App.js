@@ -32,7 +32,7 @@ export default function App() {
       <Text style={styles.title}> LockGen </Text>
 
       <TouchableOpacity style={styles.button} onPress={gerarSenha}>
-        <Text style={styles.textButton}> Gerar Senha </Text>
+        <Text style={styles.textButton}> Gerar Senha zika </Text>
       </TouchableOpacity>
 
       
@@ -76,4 +76,8 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
   },
+  Image: {
+    borderWidth: 100,
+    
+  }
 });
